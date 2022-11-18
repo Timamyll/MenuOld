@@ -1,0 +1,76 @@
+@import url(./modules/header.css);
+@import url(./modules/contact.css);
+@import url(./modules/menu.css);
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 14px;
+    color: #4F5665;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    background: #f6f6f6;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.hamburger {
+    display: none;
+    background: #0070FF;
+    border-radius: 4px;
+    padding: 9px 7px 5px 7px;
+}
+
+
+.hamburger span {
+        height: 3px;
+        width: 24px;
+        border-radius: 5px;
+        display: block;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 4px;
+        transition: all 0.4s;
+    }
+
+@media (max-width: 460px) {
+    .hamburger {
+        display: block;
+    }
+}

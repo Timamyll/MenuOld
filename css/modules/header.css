@@ -1,0 +1,92 @@
+.page__header {
+}
+.container {
+}
+.header__map {
+}
+.map__body {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    background: #FAFAFA;
+    mix-blend-mode: multiply;
+}
+.map__box {
+    display: flex;
+    gap: 30px;
+}
+.map__maps {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.map__link {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #283780;
+    transition: all 0.3 ease-in-out;
+}
+
+.map__link:hover {
+    color: #0070FF;
+}
+.map__img {
+}
+.adress__link {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #283780;
+    transition: all 0.3 ease-in-out;
+}
+.adress__link:hover {
+    color: #0070FF;
+}
+.pay__link {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #283780;
+    transition: all 0.3 ease-in-out;
+}
+.pay__link:hover {
+    color: #0070FF;
+}
+
+.about__link {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.about__image {
+}
+.about__director {
+    font-family: 'Tahoma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #0070FF;
+    transition: all 0.3s ease-in-out;
+}
+
+.about__director:hover {
+    text-decoration-line: underline;
+
+}
+
+
+@media (max-width: 820px) {
+    .map__body {
+        display: none;
+    }
+}
+
